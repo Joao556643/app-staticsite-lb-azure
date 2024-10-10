@@ -23,6 +23,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-    name     = "rg-staticsite-lb-tf-joao01"
+    name     = "rg-staticsite-lb-joao01"
     location = "brazilsouth"
 }
